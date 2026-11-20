@@ -44,8 +44,8 @@
 {#if props.rawSymbol.multiplier}
 	<BitmapText
 		anchor={0.5} scale={{ x: 1.3, y: 0.9 }}
-		x={props.x}
-		y={props.y + 42}
+x={props.x}
+y={props.state === 'explosion' ? -9999 : props.y + 42}
 		text={`${props.rawSymbol.multiplier}X`}
 		style={{
 			fontFamily: 'gold',

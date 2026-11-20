@@ -165,7 +165,7 @@ const explosion = {
 	type: 'spine',
 	assetKey: 'explosion',
 	animationName: 'explosion',
-	sizeRatios: { width: 1, height: 1 },
+	sizeRatios: { width: 0.01, height: 0.01 },
 };
 
 const h1Static = { type: 'sprite', assetKey: 'h1.webp', sizeRatios: { width: 1, height: 1 } };
